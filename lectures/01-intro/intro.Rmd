@@ -1,0 +1,55 @@
+---
+title: "Course Introduction"
+author: "Joong-Ho Won @ SNU"
+date: '`r format(Sys.time(), "%B %d, %Y")`'
+output: 
+  html_document:
+    toc: true
+bibliography: ../bib-HZ.bib
+---
+
+$\DeclareMathOperator*{\argmin}{arg\,min}$
+
+## Acknowledgment
+
+This lecture note is based on [Dr. Hua Zhou](http://hua-zhou.github.io)'s 2018 Winter Statistical Computing course notes available at <http://hua-zhou.github.io/teaching/biostatm280-2018winter/index.html>.
+
+
+# What is this course about?
+
+## Statistics and data science
+
+- This course introduces some computing skills and software tools for handling potentially big data.
+
+- Statistics, the science of _data analysis_, is the applied mathematics in the 21st century.
+
+- Data is increasing in [volume, velocity, and variety](http://www.forbes.com/sites/oreillymedia/2012/01/19/volume-velocity-variety-what-you-need-to-know-about-big-data/).
+
+## Classification of data sets by @Huber94HugeData; -@Huber96MassiveData {.smaller}
+
+| Data Size | Bytes          | Storage Mode               |
+|-----------|----------------|----------------------------|
+| tiny      | $10^2$         | piece of paper             |
+| small     | $10^4$         | a few pieces of paper      |
+| medium    | $10^6$ (MB)    | a floppy disk              |
+| large     | $10^8$         | hard disk                  |
+| huge      | $10^9$ (GB)    | hard disk(s)               |
+| massive   | $10^{12}$ (TB) | hard disk(s); RAID storage |
+
+
+## Four V's of big data
+
+<p align="center">
+  <img src="./4-Vs-of-big-data.jpg" height="450" width="700">
+</p>
+Source: [IBM](http://www.ibmbigdatahub.com/infographic/four-vs-big-data).
+
+## Course desciption
+
+- This course introduces some computing skills and software tools for handling potentially big public health data.
+
+- Read [syllabus](../syllabus.html) for a tentative list of topics and course logistics.
+
+
+## References
+

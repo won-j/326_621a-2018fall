@@ -56,7 +56,7 @@ The following schedule is tentative, and is subject to change over the course.
 
 | Week | Topic | Assignment | Due Date |
 |---| --- | --- | --- |
-| 1 (9/3, 9/5)      | [Introduction](./lectures/01-intro/01-intro.html), [Unix Basics I](./lectures/02-linux1.html), [Unix Basics II](./lectures/02-linux2.html) |  |  |
+| 1 (9/3, 9/5)      | [Introduction](./lectures/01-intro/intro.html), [Unix Basics I](./lectures/02-linux/linux1.html), [Unix Basics II](./lectures/02-linux/linux2.html) |  |  |
 | 2 (9/10, 9/12)    | *No class* -- will makeup if necessary |  |  |
 | 3 (9/17, 9/19)    | Reproducible Research |   |  |
 | 4 (9/24, 9/26)    | *Chusok recess* |  |  |

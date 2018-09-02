@@ -46,9 +46,9 @@ Source: [IBM](http://www.ibmbigdatahub.com/infographic/four-vs-big-data).
 
 ## Course desciption
 
-- This course introduces some computing skills and software tools for handling potentially big public health data.
+- This course introduces some computing skills and software tools for handling potentially big data.
 
-- Read [syllabus](../syllabus.html) for a tentative list of topics and course logistics.
+- Read [syllabus](../..) for a tentative list of topics and course logistics.
 
 
 ## References

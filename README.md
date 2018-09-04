@@ -8,9 +8,15 @@ Joong-Ho (Johann) Won
 
 **Email**: wonj AT stats DOT snu DOT ac DOT kr
 
+## TA
+
+Sungdong Lee
+
+** Email ** clan1212 AT snu DOT ac DOT kr
+
 **Class Time**: Mondays Wednesdays 11:00 AM - 12:15 PM in 25-203
 
-**Office Hours**: TBD
+**Office Hours**: MW 12:15 - 01:15 PM
 
 **Textbook**: This course has no required textbook.
 
@@ -23,7 +29,6 @@ Joong-Ho (Johann) Won
 - [Advanced R](http://adv-r.had.co.nz/) ([Korean translation](http://jpub.tistory.com/792)) 
 - [R Packages](http://r-pkgs.had.co.nz/) by Hadley Wickham
 
-**Syllabus**: [Link, in Korean](./syllabus2018.pdf)
 
 ## Course Objectives
 

@@ -2,6 +2,10 @@
 
 This is the course website for 326.621A: "Introduction to Data Science" at Seoul National University in Fall 2018. Assignments, lecture notes, and open source code will all be available on this website.
 
+## Announcements
+
+* 2018-09-16: Homework 1 is announced.
+
 ## Instructor 
 
 Joong-Ho (Johann) Won

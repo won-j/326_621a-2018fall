@@ -4,6 +4,8 @@ This is the course website for 326.621A: "Introduction to Data Science" at Seoul
 
 ## Announcements
 
+* 2018-09-19: Late homework policy announced. See below.
+* 2018-09-19: Additional question added to Homework 1
 * 2018-09-16: Homework 1 is announced.
 
 ## Instructor 
@@ -58,6 +60,11 @@ The course will be graded based on the following components:
 
 - **Attendence** (10%): Includes both the lecture and the lab sessions.
 - **Assignments** (90%): You will be assigned four computational assignments regularly throughout class. 
+    * All the homework assignments *must* be submitted to github.
+
+### Late policy
+
+- Late homework submission will be deducted from its original score 50% per day.
 
 ### Schedule
 
@@ -67,10 +74,10 @@ The following schedule is tentative, and is subject to change over the course.
 |---| --- | --- | --- |
 | 1 (9/3, 9/5)      | [Introduction](./lectures/01-intro/intro.html), [Unix Basics I](./lectures/02-linux/linux1.html) |  |  |
 | 2 (9/10, 9/12)    | *No class* -- will makeup if necessary | [Homework 1](./hw/hw1/hw1.html) | 9/30/2018 |
-| 3 (9/17, 9/19)    | [Unix Basics II](./lectures/02-linux/linux2.html), Git and Github |   |  |
+| 3 (9/17, 9/19)    | [Unix Basics II](./lectures/02-linux/linux2.html), [Git](./lectures/04-git/git.html) and [Github](./lectures/04-git/lab_01_git_and_github.pdf), [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html) |   |  |
 | 4 (9/24, 9/26)    | *Chusok recess* |  |  |
-| 5 (10/1, 10/3)    | R Markdown |  |  |
-| 6 (10/8, 10/10)   | R Markdown, Reproducible Research |  |  |
+| 5 (10/1, 10/3)    | Git and Github, R Markdown |  |  |
+| 6 (10/8, 10/10)   | Reproducible Research |  |  |
 | 7 (10/15, 10/17)  | Data Visualization |  |  |
 | 8 (10/22, 10/24)  | Data Transformation |  |  |
 | 9 (10/29, 10/31)  | Tidy Data, Strings |  |  |

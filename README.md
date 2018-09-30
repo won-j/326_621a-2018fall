@@ -76,8 +76,8 @@ The following schedule is tentative, and is subject to change over the course.
 | 2 (9/10, 9/12)    | *No class* -- will makeup if necessary | [Homework 1](./hw/hw1/hw1.html) | 9/30/2018 |
 | 3 (9/17, 9/19)    | [Unix Basics II](./lectures/02-linux/linux2.html), [Git](./lectures/04-git/git.html) and [Github](./lectures/04-git/lab_01_git_and_github.pdf), [R Markdown](./lectures/03-repres/SC18.Lab.180912.rmd.html) |   |  |
 | 4 (9/24, 9/26)    | *Chusok recess* |  |  |
-| 5 (10/1, 10/3)    | Git and Github, R Markdown |  |  |
-| 6 (10/8, 10/10)   | Reproducible Research |  |  |
+| 5 (10/1, 10/3)    | [R Markdown]((http://rmarkdown.rstudio.com/lesson-1.html)), [Reproducible Research](./lectures/03-repres/repres.html) |  |  |
+| 6 (10/8, 10/10)   | More Git |  |  |
 | 7 (10/15, 10/17)  | Data Visualization |  |  |
 | 8 (10/22, 10/24)  | Data Transformation |  |  |
 | 9 (10/29, 10/31)  | Tidy Data, Strings |  |  |

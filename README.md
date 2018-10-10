@@ -78,7 +78,7 @@ The following schedule is tentative, and is subject to change over the course.
 | 4 (9/24, 9/26)    | *Chusok recess* |  |  |
 | 5 (10/1, 10/3)    | [R Markdown](http://rmarkdown.rstudio.com/lesson-1.html), [Reproducible Research](./lectures/03-repres/repres.html) |  |  |
 | 6 (10/8, 10/10)   | [More Git](./lectures/04-git/git2.html) |  |  |
-| 7 (10/15, 10/17)  | Data Visualization |  |  |
+| 7 (10/15, 10/17)  | [Data Visualization](./lectures/06-ggplot2/ggplot2.html) |  |  |
 | 8 (10/22, 10/24)  | Data Transformation |  |  |
 | 9 (10/29, 10/31)  | Tidy Data, Strings |  |  |
 | 10 (11/5, 11/7)   | Databases |  |  |

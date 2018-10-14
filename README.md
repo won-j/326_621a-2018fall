@@ -4,6 +4,7 @@ This is the course website for 326.621A: "Introduction to Data Science" at Seoul
 
 ## Announcements
 
+* 2018-10-14: Homework 2 is announced.
 * 2018-09-19: Late homework policy announced. See below.
 * 2018-09-19: Additional question added to Homework 1
 * 2018-09-16: Homework 1 is announced.
@@ -77,7 +78,7 @@ The following schedule is tentative, and is subject to change over the course.
 | 3 (9/17, 9/19)    | [Unix Basics II](./lectures/02-linux/linux2.html), [Git](./lectures/04-git/git.html) and [Github](./lectures/04-git/lab_01_git_and_github.pdf), [R Markdown](./lectures/03-repres/SC18.Lab.180912.rmd.html) |   |  |
 | 4 (9/24, 9/26)    | *Chusok recess* |  |  |
 | 5 (10/1, 10/3)    | [R Markdown](http://rmarkdown.rstudio.com/lesson-1.html), [Reproducible Research](./lectures/03-repres/repres.html) |  |  |
-| 6 (10/8, 10/10)   | [More Git](./lectures/04-git/git2.html) |  |  |
+| 6 (10/8, 10/10)   | [More Git](./lectures/04-git/git2.html) | [Homework 2](./hw/hw2/hw2.md) | 10/28/2018 |
 | 7 (10/15, 10/17)  | [Data Visualization](./lectures/06-ggplot2/ggplot2.html) |  |  |
 | 8 (10/22, 10/24)  | Data Transformation |  |  |
 | 9 (10/29, 10/31)  | Tidy Data, Strings |  |  |

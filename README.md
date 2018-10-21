@@ -80,8 +80,8 @@ The following schedule is tentative, and is subject to change over the course.
 | 5 (10/1, 10/3)    | [R Markdown](http://rmarkdown.rstudio.com/lesson-1.html), [Reproducible Research](./lectures/03-repres/repres.html) |  |  |
 | 6 (10/8, 10/10)   | [More Git](./lectures/04-git/git2.html) | [Homework 2](./hw/hw2/hw2.md) | 10/28/2018 |
 | 7 (10/15, 10/17)  | [Data Visualization](./lectures/06-ggplot2/ggplot2.html) |  |  |
-| 8 (10/22, 10/24)  | Data Transformation |  |  |
-| 9 (10/29, 10/31)  | Tidy Data, Strings |  |  |
+| 8 (10/22, 10/24)  | [Data Transformation](./lectures/07-dplyr/dplyr.html) |  |  |
+| 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), Strings |  |  |
 | 10 (11/5, 11/7)   | Databases |  |  |
 | 11 (11/12, 11/14) | Cloud Computing |  |  |
 | 12 (11/19, 11/21) | Docker |  |  |

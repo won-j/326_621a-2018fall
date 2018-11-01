@@ -4,6 +4,7 @@ This is the course website for 326.621A: "Introduction to Data Science" at Seoul
 
 ## Announcements
 
+* 2018-11-01: Homework 3 is announced.
 * 2018-10-14: Homework 2 is announced.
 * 2018-09-19: Late homework policy announced. See below.
 * 2018-09-19: Additional question added to Homework 1
@@ -81,8 +82,8 @@ The following schedule is tentative, and is subject to change over the course.
 | 6 (10/8, 10/10)   | [More Git](./lectures/04-git/git2.html) | [Homework 2](./hw/hw2/hw2.md) | 10/28/2018 |
 | 7 (10/15, 10/17)  | [Data Visualization](./lectures/06-ggplot2/ggplot2.html) |  |  |
 | 8 (10/22, 10/24)  | [Data Transformation](./lectures/07-dplyr/dplyr.html) |  |  |
-| 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html) |  |  |
-| 10 (11/5, 11/7)   | Databases [part1](./lectures/11-dbplyr/dbintro.html) |  |  |
+| 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html), Databases [part1](./lectures/11-dbplyr/dbintro.html) | [Homework 3](./hw/hw3/hw3.md) |  |
+| 10 (11/5, 11/7)   | Databases [part2](./lectures/11-dbplyr/dbplyr.html) |  |  |
 | 11 (11/12, 11/14) | Cloud Computing |  |  |
 | 12 (11/19, 11/21) | Docker |  |  |
 | 13 (11/26, 11/28) | Distributed Data Analysis |  |  |

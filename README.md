@@ -84,7 +84,7 @@ The following schedule is tentative, and is subject to change over the course.
 | 8 (10/22, 10/24)  | [Data Transformation](./lectures/07-dplyr/dplyr.html) |  |  |
 | 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html), Databases [part1](./lectures/11-dbplyr/dbintro.html) | [Homework 3](./hw/hw3/hw3.md) |  |
 | 10 (11/5, 11/7)   | Databases [part2](./lectures/11-dbplyr/dbplyr.html) |  |  |
-| 11 (11/12, 11/14) | Cloud Computing |  |  |
+| 11 (11/12, 11/14) | [Cloud Computing](./lectures/13-gcp/gcp.html) |  |  |
 | 12 (11/19, 11/21) | Docker |  |  |
 | 13 (11/26, 11/28) | Distributed Data Analysis |  |  |
 | 14 (12/3, 12/5)   | Advanced R Programming |  |  |

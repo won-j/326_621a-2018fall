@@ -11,7 +11,7 @@
 
 <meta name="author" content="Joong-Ho Won" />
 
-<meta name="date" content="2018-11-11" />
+<meta name="date" content="2018-11-12" />
 
 <title>Cloud Computing</title>
 
@@ -124,7 +124,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Cloud Computing</h1>
 <h4 class="author"><em>Joong-Ho Won</em></h4>
-<h4 class="date"><em>November 11, 2018</em></h4>
+<h4 class="date"><em>November 12, 2018</em></h4>
 
 </div>
 
@@ -145,7 +145,6 @@ $(document).ready(function () {
 <li><a href="#set-up-a-regular-user">Set up a regular user</a></li>
 <li><a href="#install-r-packages">Install R packages</a></li>
 <li><a href="#install-git">Install Git</a></li>
-<li><a href="#optional-install-julia">(Optional) Install Julia</a></li>
 </ul></li>
 <li><a href="#step-4-run-your-jobs">Step 4: run your jobs</a></li>
 <li><a href="#step-5-transfer-results">Step 5: transfer results</a></li>
@@ -299,10 +298,20 @@ cd .ssh
 vi authorized_keys</code></pre>
 <p>Copy your public key to <code>authorized_keys</code> and set permission</p>
 <pre class="bash"><code>chmod go-rwx authorized_keys</code></pre>
+<p>If you don’t have a public key, then you may want try password authentication. To do this, edit <code>/etc/ssh/sshd_config</code> file by</p>
+<pre class="bash"><code>sudo vi /etc/ssh/sshd_config</code></pre>
+<p>and uncomment the line</p>
+<pre><code>#PasswordAuthentication yes </code></pre>
+<p>Don’t forget to comment out the line</p>
+<pre><code>PasswordAuthentication no </code></pre>
+<p>Then, add password to your account by</p>
+<pre class="bash"><code>sudo password $(YOUR_GOOGLE_ACCOUNT_NAME)</code></pre>
+<p>Finally, restart the ssh daemon by</p>
+<pre class="base"><code>sudo service sshd restart</code></pre>
 <ul>
 <li>Now you should be able to connect to the VM instance from any machine with the matching private key:</li>
 </ul>
-<pre class="bash"><code>ssh username@35.187.203.86    ## actual ip address varies</code></pre>
+<pre class="bash"><code>ssh $(YOUR_GOOGLE_ACCOUNT_NAME)@35.187.203.86    ## actual ip address should be different</code></pre>
 </div>
 <div id="step-3-install-software" class="section level2">
 <h2>Step 3: install software</h2>
@@ -387,12 +396,6 @@ sudo yum install libxml2 libxml2-devel -y</code></pre>
 <li><p>Now you can <code>git clone</code> any repo to the VM instance to start working on a project. E.g.,</p></li>
 </ul>
 <pre class="bash"><code>git clone https://github.com/snu-stat/stat326_621a-2018-hw2</code></pre>
-</div>
-<div id="optional-install-julia" class="section level3">
-<h3>(Optional) Install Julia</h3>
-<pre class="bash"><code>sudo yum install yum-utils -y
-sudo yum-config-manager --add-repo https://copr.fedorainfracloud.org/coprs/nalimilan/julia/repo/epel-7/nalimilan-julia-epel-7.repo
-sudo yum install julia -y</code></pre>
 </div>
 </div>
 <div id="step-4-run-your-jobs" class="section level2">

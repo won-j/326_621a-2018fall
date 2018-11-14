@@ -82,11 +82,11 @@ The following schedule is tentative, and is subject to change over the course.
 | 6 (10/8, 10/10)   | [More Git](./lectures/04-git/git2.html) | [Homework 2](./hw/hw2/hw2.md) | 10/28/2018 |
 | 7 (10/15, 10/17)  | [Data Visualization](./lectures/06-ggplot2/ggplot2.html) |  |  |
 | 8 (10/22, 10/24)  | [Data Transformation](./lectures/07-dplyr/dplyr.html) |  |  |
-| 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html), Databases [part1](./lectures/11-dbplyr/dbintro.html) | [Homework 3](./hw/hw3/hw3.md) |  |
+| 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html), Databases [part1](./lectures/11-dbplyr/dbintro.html) | [Homework 3](./hw/hw3/hw3.md) | 11/21/2018 |
 | 10 (11/5, 11/7)   | Databases [part2](./lectures/11-dbplyr/dbplyr.html) |  |  |
-| 11 (11/12, 11/14) | [Cloud Computing](./lectures/13-gcp/gcp.html) |  |  |
-| 12 (11/19, 11/21) | Docker |  |  |
-| 13 (11/26, 11/28) | Distributed Data Analysis |  |  |
+| 11 (11/12, 11/14) | [Cloud Computing](./lectures/13-gcp/gcp.html), Distributed Data Analysis [part 1](./lectures/12-sparklyr/sparklyr-intro.html) |  |  |
+| 12 (11/19, 11/21) | Distributed Data Analysis part 2 |  |  |
+| 13 (11/26, 11/28) | Docker |  |  |
 | 14 (12/3, 12/5)   | Advanced R Programming |  |  |
 | 15 (12/10, 12/12) | Shiny |  |  |
 

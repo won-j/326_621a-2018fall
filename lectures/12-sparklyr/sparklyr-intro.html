@@ -11,7 +11,7 @@
 
 <meta name="author" content="Joong-Ho Won" />
 
-<meta name="date" content="2018-11-11" />
+<meta name="date" content="2018-11-14" />
 
 <title>Distributed Data Analysis Using sparklyr - Part I</title>
 
@@ -124,7 +124,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Distributed Data Analysis Using sparklyr - Part I</h1>
 <h4 class="author"><em>Joong-Ho Won</em></h4>
-<h4 class="date"><em>November 11, 2018</em></h4>
+<h4 class="date"><em>November 14, 2018</em></h4>
 
 </div>
 
@@ -376,21 +376,21 @@ sudo gdebi rstudio-server-1.1.423-amd64.deb</code></pre>
 </div>
 <div id="establish-regular-accounts" class="section level2">
 <h2>Establish regular accounts</h2>
-<p>Run following script to set up student’s accounts on YARN master node with default password <code>m280</code> (need sudo rights):</p>
-<pre class="bash"><code>ulist=(&quot;huazhou&quot; &quot;juhkim111&quot; &quot;andrewngu&quot; &quot;anorthrup&quot; &quot;bryanlin24&quot; &quot;chad.e.pickering&quot; &quot;c.shaw&quot; &quot;david.levy&quot; &quot;emjcampos&quot; &quot;ericasu&quot; &quot;gaoshuang&quot; &quot;huiyuhu&quot; &quot;jayxu33&quot; &quot;jboland521&quot; &quot;jiayunli&quot; &quot;katywang&quot; &quot;l4luo&quot; &quot;lishanpeng0913&quot; &quot;luminghuang&quot; &quot;makadlac&quot; &quot;mdponzini&quot; &quot;mondals&quot; &quot;nabbongoug&quot; &quot;nanchen322&quot; &quot;sarahh.jii&quot; &quot;sgoitom&quot; &quot;shendarrick821&quot; &quot;stjia&quot; &quot;tahlia.hodes&quot; &quot;tdbufford&quot; &quot;wangdy0536&quot; &quot;xliu352&quot; &quot;zexuan55&quot; &quot;zhaokezk&quot; &quot;ziyansong08&quot; &quot;zy.zhang&quot;)
+<p>Run the following script to set up accounts on the YARN master node with default password <code>snustat</code> (need sudo rights):</p>
+<pre class="bash"><code>ulist=(&quot;wonj&quot; &quot;$YOUR_USER_ID&quot;)
 for u in &quot;${ulist[@]}&quot;
   do
     echo &quot;create account for $u&quot;
     sudo useradd -m -G rstudio-user &quot;$u&quot;
-    echo -e &quot;m280\nm280&quot; | sudo passwd &quot;$u&quot; 
+    echo -e &quot;snustat\nsnustat&quot; | sudo passwd &quot;$u&quot; 
     sudo chsh -s /bin/bash &quot;$u&quot;
   done</code></pre>
 </div>
 <div id="yarn-management-survival-commands" class="section level2">
 <h2>YARN management survival commands</h2>
 <ul>
-<li><p>We can check the status of YARN cluster at port 8088: <a href="http://35.187.203.86%20:8088"><code>http://35.187.203.86:8088</code></a>.</p></li>
-<li><p>Remember to unblock the firewall</p></li>
+<li>We can check the status of YARN cluster at port 8088: e.g., <code>http://35.187.203.86:8088</code>.</li>
+<li>Remember to unblock the firewall</li>
 </ul>
 <pre class="bash"><code># list hadoop jobs
 yarn application -list

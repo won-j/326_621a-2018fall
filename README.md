@@ -4,6 +4,7 @@ This is the course website for 326.621A: "Introduction to Data Science" at Seoul
 
 ## Announcements
 
+* 2018-11-19: Homework 4 is announced.
 * 2018-11-01: Homework 3 is announced.
 * 2018-10-14: Homework 2 is announced.
 * 2018-09-19: Late homework policy announced. See below.
@@ -85,11 +86,8 @@ The following schedule is tentative, and is subject to change over the course.
 | 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html), Databases [part1](./lectures/11-dbplyr/dbintro.html) | [Homework 3](./hw/hw3/hw3.md) | 11/21/2018 |
 | 10 (11/5, 11/7)   | Databases [part2](./lectures/11-dbplyr/dbplyr.html) |  |  |
 | 11 (11/12, 11/14) | [Cloud Computing](./lectures/13-gcp/gcp.html), Distributed Data Analysis [part 1](./lectures/12-sparklyr/sparklyr-intro.html) |  |  |
-| 12 (11/19, 11/21) | Distributed Data Analysis part 2 |  |  |
+| 12 (11/19, 11/21) | Distributed Data Analysis [part 2](./lectures/12-sparklyr/sparklyr-flights.html) | [Homework 4](./hw/hw4/hw4.md) |  |
 | 13 (11/26, 11/28) | Docker |  |  |
 | 14 (12/3, 12/5)   | Advanced R Programming |  |  |
 | 15 (12/10, 12/12) | Shiny |  |  |
 
-
-## Acknowledgment
-Lecture notes for this course were arranged from the source code of the textbook available at <https://github.com/hadley/r4ds>.

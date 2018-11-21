@@ -1,6 +1,7 @@
 # 326.621A Homework 3
 
-### Due November 21, 2018 @ 11:59PM
+### Due ~~November 21, 2018 @ 11:59PM~~
+### Due November 25, 2018 @ 11:59PM
 
 ## Q1 R for Data Science [Chapter 3](https://r4ds.had.co.nz/data-visualisation.html)
 

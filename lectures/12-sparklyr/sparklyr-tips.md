@@ -32,6 +32,15 @@ To avoid potential attack from the virus, update your firewall configuration as 
 1.  In the GCP console, go to VPC Networks &gt; Firewall rules.
 2.  You there is no firewall rules regarding the Hadoop managers (involving port 8088), click `CREATE FIREWALL RULE` tab. Otherwise, click the corresponding rule and then click `EDIT` tab.
 3.  In `Source filter` setting, select "IP ranges".
-4.  In `Source IP ranges` setting, input `147.46.0.0/16` and `147.47.0.0/16`. This allows connection from the SNU network only.the SNU network only.
+4.  In `Source IP ranges` setting, input `147.46.0.0/16` and `147.47.0.0/16`. This allows connections from the SNU network only.
 5.  In `Protocols and ports` setting, select "Tcp" and port "8080".
 6.  Repeat editing firewall rules for other ports with IP ranges `0.0.0.0/0`, e.g. Rstudio (port 8787) and SSH (port 22).
+
+Clean Up
+--------
+
+After finising your project, delete the cluster. Remember that deleting alone is not enough to prevent further billing.
+
+1.  If you used a static IP, then go to Networking &gt; Network Service Tiers &gt; Static external IP address to release the IP. A static IP address is free if it is in use, but charged if not VM is using it.
+
+2.  The data buckets associated with the yarn cluster still reside. Go to Storage &gt; Browser &gt; Buckets to delte the buckets.

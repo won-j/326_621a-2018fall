@@ -91,6 +91,6 @@ The following schedule is tentative, and is subject to change over the course.
 | 11 (11/12, 11/14) | [Cloud Computing](./lectures/13-gcp/gcp.html), Distributed Data Analysis [part 1](./lectures/12-sparklyr/sparklyr-intro.html) |  |  |
 | 12 (11/19, 11/21) | Distributed Data Analysis [part 2](./lectures/12-sparklyr/sparklyr-flights.html) | [Homework 4](./hw/hw4/hw4.html) | 12/09/2018  |
 | 13 (11/26, 11/28) | Distributed Data Analysis [tips](./lectures/12-sparklyr/sparklyr-tips.md), [Docker](./lectures/14-docker/docker.html) |  |  |
-| 14 (12/3, 12/5)   | Advanced R Programming |  |  |
+| 14 (12/3, 12/5)   | Advanced R Programming [part 1](./lectures/15-advr/advr1.html) |  |  |
 | 15 (12/10, 12/12) | Shiny |  |  |
 

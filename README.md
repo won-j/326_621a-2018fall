@@ -4,6 +4,7 @@ This is the course website for 326.621A: "Introduction to Data Science" at Seoul
 
 ## Announcements
 
+* 2018-12-07: Homework 4 deadline is extended. Check out [Homework 4](./hw/hw4/hw4.html) for slight modifications.
 * 2018-11-25: Sparklyr lecture notes are updated.
 * 2018-11-21: Cloud teaching server is back!
 * 2018-11-20: Homework 3 deadline is extended due to technical problems.
@@ -89,8 +90,8 @@ The following schedule is tentative, and is subject to change over the course.
 | 9 (10/29, 10/31)  | [Tidy Data](./lectures/08-tidy/tidy.html), [Strings](./lectures/09-stringr/stringr.html), Databases [part1](./lectures/11-dbplyr/dbintro.html) | [Homework 3](./hw/hw3/hw3.md) | 11/25/2018 |
 | 10 (11/5, 11/7)   | Databases [part2](./lectures/11-dbplyr/dbplyr.html) |  |  |
 | 11 (11/12, 11/14) | [Cloud Computing](./lectures/13-gcp/gcp.html), Distributed Data Analysis [part 1](./lectures/12-sparklyr/sparklyr-intro.html) |  |  |
-| 12 (11/19, 11/21) | Distributed Data Analysis [part 2](./lectures/12-sparklyr/sparklyr-flights.html) | [Homework 4](./hw/hw4/hw4.html) | 12/09/2018  |
+| 12 (11/19, 11/21) | Distributed Data Analysis [part 2](./lectures/12-sparklyr/sparklyr-flights.html) | [Homework 4](./hw/hw4/hw4.html) | ~~12/09/2018~~ 12/16/2018  |
 | 13 (11/26, 11/28) | Distributed Data Analysis [tips](./lectures/12-sparklyr/sparklyr-tips.md), [Docker](./lectures/14-docker/docker.html) |  |  |
 | 14 (12/3, 12/5)   | Advanced R Programming [part 1](./lectures/15-advr/advr1.html), [part 2](./lectures/15-advr/advr2.html) |  |  |
-| 15 (12/10, 12/12) | Shiny |  |  |
+| 15 (12/10, 12/12) | ~~Shiny~~ |  |  |
 

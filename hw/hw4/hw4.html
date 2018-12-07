@@ -121,14 +121,18 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">326.621A Homework 4</h1>
-<h3 class="subtitle"><em>Due December 9 @ 11:59PM</em></h3>
+<h3 class="subtitle"><em>Due <del>December 9</del> December 16 @ 11:59PM</em></h3>
 
 </div>
 
 
 <div id="q1.-big-data-analysis" class="section level2">
 <h2>Q1. Big data analysis</h2>
-<p>Our Apache Yarn cluster hosts the <a href="http://stat-computing.org/dataexpo/2009/the-data.html">flights</a> data representing 123 million flights over 22 years. Read the <a href="../lectures/12-sparklyr/sparklyr-flights.html">lecture notes</a> on how to access the Yarn cluster. Connect to the database using <code>sparklyr</code> and answer following questions. You can base your answers on a specific year or the whole data set.</p>
+<p>Our Apache Yarn cluster</p>
+<p><code>35.221.222.125</code></p>
+<p>hosts the <a href="http://stat-computing.org/dataexpo/2009/the-data.html">flights</a> data representing 123 million flights over 22 years.</p>
+<p>You can connect to the <a href="http://35.221.222.125:8787/">R Studio Server</a> at the master from the SNU network using the user id and password handed out in class.</p>
+<p>Read the <a href="../lectures/12-sparklyr/sparklyr-flights.html">lecture notes</a> on how to access the Yarn cluster. Connect to the database using <code>sparklyr</code> and answer following questions. You can base your answers on a specific year or the whole data set.</p>
 <ol style="list-style-type: decimal">
 <li><p>Map the top 10 busiest airports. Size of dots should reflect the number of flights through that destination.<br />
 Hint: You may find this tutorial on <a href="http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html">Making Maps in R</a> helpful.</p></li>
@@ -163,6 +167,10 @@ sdf_len(sc, 1000) %&gt;%
 <li>Start from a smaller subset on a local machine (<code>spark_connect(master = &quot;local&quot;)</code>) to save your time and resource.</li>
 <li>Typical choices of the step size <span class="math inline">\(\gamma_k\)</span> are <span class="math inline">\(\gamma_k=\gamma_0\)</span> (constant step size), <span class="math inline">\(\gamma_k=\gamma_0/k\)</span>, and <span class="math inline">\(\gamma_k = \gamma_0/\sqrt{k}\)</span> (diminishing step sizes). SGD is known to be sensitive to the step size.</li>
 </ul></li>
+</ul>
+<p><em>Added on 12/07/2018</em></p>
+<ul>
+<li>The class cluster <code>35.221.222.125</code> has limited computing capacity. So it is recommended to try this problem on your own cluster. In case your GCP credit is limited, you are allowed to run the code on a local machine, with a smaller dataset (part of the <code>flights</code> data). <strong>You will get an extra credit if you use the full dataset.</strong></li>
 </ul>
 </div>
 
